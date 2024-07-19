@@ -4,7 +4,7 @@ O objetivo deste teste é avaliar a sua habilidade de criar uma aplicação para
 
 1. **LangChain**: Framework para construção de aplicações com base em IA.
 2. **ChromaDB**: Banco de dados para armazenamento de vetores.
-3. **Ollama**: Modelo de linguagem para processamento de textos.
+3. **Ollama**: Ferramenta de código aberto que permite executar e gerenciar modelos de linguagem grande (LLMs) diretamente na sua máquina local.
 4. **Docker e Docker Compose**: Para configuração e orquestração do ambiente de desenvolvimento.
 
 ## Requisitos do Teste
@@ -15,7 +15,7 @@ O objetivo deste teste é avaliar a sua habilidade de criar uma aplicação para
 
 2. **Processamento do Texto**:
     - Use LangChain para processar o texto extraído.
-    - Treine o modelo Ollama com o texto da Política de Privacidade.
+    - Treine o modelo escolhido com o texto da Política de Privacidade (Recomendamos o Llama3).
 
 3. **Armazenamento de Dados**:
     - Configure ChromaDB para armazenar os vetores resultantes do processamento do texto.
@@ -24,11 +24,11 @@ O objetivo deste teste é avaliar a sua habilidade de criar uma aplicação para
 4. **Uso de Docker e Docker Compose**:
     - Configure o ambiente de desenvolvimento utilizando Docker e Docker Compose.
     - Crie um arquivo `Dockerfile` para a aplicação.
-    - Crie um arquivo `docker-compose.yml` para orquestrar os serviços necessários (LangChain, ChromaDB, Ollama).
+    - Crie um arquivo `docker-compose.yml` para orquestrar os serviços necessários.
 
 ## Critérios de Avaliação
 
-1. **Funcionalidade**: A aplicação deve ser capaz de ler o PDF, processar o texto, treinar o modelo Ollama e armazenar os dados no ChromaDB.
+1. **Funcionalidade**: A aplicação deve ser capaz de ler o PDF, processar o texto, treinar o modelo e armazenar os dados no ChromaDB.
 2. **Integração com LangChain**: O uso do LangChain para processamento do texto deve ser eficiente e bem estruturado.
 3. **Armazenamento e Recuperação de Dados**: A integração com o ChromaDB deve permitir o armazenamento e recuperação eficiente dos vetores.
 4. **Configuração com Docker**: A configuração do ambiente de desenvolvimento utilizando Docker e Docker Compose deve ser clara e funcional.
@@ -48,7 +48,7 @@ O objetivo deste teste é avaliar a sua habilidade de criar uma aplicação para
 
 3. **Processar o Texto com LangChain**:
     - Use LangChain para processar o texto extraído do PDF.
-    - Treine o modelo Ollama com o texto processado.
+    - Treine o modelo com o texto processado.
 
 4. **Armazenar Dados no ChromaDB**:
     - Configure ChromaDB para armazenar os vetores resultantes do processamento do texto.
